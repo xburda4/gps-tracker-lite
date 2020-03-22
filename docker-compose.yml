@@ -1,0 +1,12 @@
+version: '2'
+services:
+  postgresDB:
+    image: postgres:9.6
+    ports:
+      - "5432:5432"
+        #  scrabble:
+        #    image: xburda4/scrabble:1303
+        #    ports:
+        #      - "8080:8080"
+        #    depends_on:
+        #      - postgresDB
